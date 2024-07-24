@@ -10,10 +10,10 @@ class Uas extends StatefulWidget {
 }
 
 class _FormWidgetState extends State<Uas> {
-  TextEditingController nameController = TextEditingController(text: 'Sabrina');
-  TextEditingController kelasController = TextEditingController();
-  TextEditingController alamatController = TextEditingController();
-  TextEditingController tanggalLahirController = TextEditingController();
+  TextEditingController nameController = TextEditingController(text: 'Melis');
+  TextEditingController kelasController = TextEditingController(text: 'A');
+  TextEditingController alamatController = TextEditingController(text: 'Parigi Moutong');
+  TextEditingController tanggalLahirController = TextEditingController(text: 'Moutong,15-Januari-2004');
   File? photo;
   final picker = ImagePicker();
   final GlobalKey _globalKey = GlobalKey();
